@@ -1,0 +1,56 @@
+/* CharacterCreationForm.css */
+.form-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+/* Style for labels, inputs, and buttons (adjust as needed) */
+.form-container label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center; /* Center label text */
+}
+
+.form-container input,
+.form-container select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Expand inputs to fill the container */
+  text-align: center; /* Center text within input and select elements */
+}
+
+.form-container button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%; /* Expand button to fill the container */
+  text-align: center; /* Center button text */
+}
+
+.form-container button:hover {
+  background-color: #357ae8;
+}
+
+.form-container input[type="date"]:hover {
+  cursor: pointer;
+}
+
+.form-container .form-error {
+  color: red;
+  font-size: smaller;
+  font-style: italic;
+}
